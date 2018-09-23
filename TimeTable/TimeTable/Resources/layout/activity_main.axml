@@ -17,11 +17,12 @@
 	</LinearLayout>
 
 	<TableRow
-		android:id="@+id/tableRow1"
+		android:id="@+id/tableRowDays"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="0dp">
-		<TextView
+		<Button
+			android:id="@+id/btnMonday"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.5"
@@ -83,7 +84,7 @@
 		/>
 	</TableRow>
 	<TableRow
-		android:id="@+id/tableRow2"
+		android:id="@+id/tableRowFirstClass"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		android:layout_marginTop="2dp">
@@ -99,8 +100,7 @@
 			android:singleLine="false"
 			android:maxLines="10"
 			android:textColor="#000000"
-			android:background="#F3ED48"
-			android:id="@+id/textView1" 
+			android:background="#F3ED48" 
 		/>
 		<TextView
 			android:layout_width="match_parent"
@@ -112,8 +112,7 @@
 			android:padding="20dp"
 			android:text="Web Imp"
 			android:textColor="#000000"
-			android:background="#F79A5C"
-			android:id="@+id/textView2" 
+			android:background="#F79A5C" 
 		/>
 		<TextView
 			android:layout_width="match_parent"
@@ -125,8 +124,7 @@
 			android:padding="20dp"
 			android:text="Int A&D"
 			android:textColor="#000000"
-			android:background="#F3ED48"
-			android:id="@+id/textView3" 
+			android:background="#F3ED48" 
 		/>
 		<TextView
 			android:layout_width="match_parent"
@@ -139,7 +137,6 @@
 			android:text="Prog 'Fav'"
 			android:textColor="000000"
 			android:background="#61DAF2"
-			android:id="@+id/textView4" 
 		/>
 		<TextView
 			android:layout_width="match_parent"
@@ -151,12 +148,11 @@
 			android:padding="20dp"
 			android:text="App T&M"
 			android:textColor="#000000"
-			android:background="#96F059"
-			android:id="@+id/textView5" 
+			android:background="#96F059" 
 		/>
 	</TableRow>
 	<TableRow
-		android:id="@+id/tableRow3"
+		android:id="@+id/tableRowSecondClass"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		android:layout_marginTop="2dp">
@@ -222,7 +218,7 @@
 		/>
 	</TableRow>
 	<TableRow
-		android:id="@+id/tableRow4"
+		android:id="@+id/tableRowThirdClass"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		android:layout_marginTop="2dp">
@@ -288,7 +284,7 @@
 		/>
 	</TableRow>
 	<TableRow
-		android:id="@+id/tableRow5"
+		android:id="@+id/tableRowFourthClass"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		android:layout_marginTop="2dp">
@@ -354,7 +350,7 @@
 		/>
 	</TableRow>
 	<TableRow
-		android:id="@+id/tableRow2"
+		android:id="@+id/tableRowLunch"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		android:layout_marginTop="2dp">
