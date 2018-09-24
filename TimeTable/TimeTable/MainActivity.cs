@@ -11,7 +11,7 @@ namespace TimeTable
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.layout.activity_main);
+            SetContentView(Resource.Layout.activity_main);
 
             var btnMonday = FindViewById<Button>(Resource.Id.btnMonday);
             btnMonday.Click += BtnMonday_Click;
