@@ -34,7 +34,8 @@
 			android:textColor="#fff"
 			android:background="#440066"
 		/>
-		<TextView
+		<Button
+			android:id="@+id/btnTuesday"
 			android:layout_width="match_parent"
 			android:layout_weight="1"
 			android:layout_height="wrap_content"
@@ -46,7 +47,8 @@
 			android:textColor="#fff"
 			android:background="#440066"
 		/>
-		<TextView
+		<Button
+			android:id="@+id/btnWednesday"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.6"
@@ -58,7 +60,8 @@
 			android:textColor="#fff"
 			android:background="#440066"
 		/>
-		<TextView
+		<Button
+			android:id="@+id/btnThursday"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="1"
@@ -70,7 +73,8 @@
 			android:textColor="#fff"
 			android:background="#440066"
 		/>
-		<TextView
+		<Button
+			android:id="@+id/btnFriday"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.7"
@@ -89,6 +93,7 @@
 		android:layout_height="match_parent"
 		android:layout_marginTop="2dp">
 		<TextView
+			android:id="@+id/txtMonInterface"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.5"
@@ -97,12 +102,11 @@
 			android:gravity="center"
 			android:padding="20dp"
 			android:text="Int A&D"
-			android:singleLine="false"
-			android:maxLines="10"
 			android:textColor="#000000"
 			android:background="#F3ED48" 
 		/>
 		<TextView
+			android:id="@+id/txtTueWeb"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.8"
@@ -115,6 +119,7 @@
 			android:background="#F79A5C" 
 		/>
 		<TextView
+			android:id="@+id/txtWedInterface"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.6"
@@ -127,6 +132,7 @@
 			android:background="#F3ED48" 
 		/>
 		<TextView
+			android:id="@+id/txtThurProgramming"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.75"
@@ -139,6 +145,7 @@
 			android:background="#61DAF2"
 		/>
 		<TextView
+			android:id="@+id/txtFriApp"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.7"
@@ -157,6 +164,7 @@
 		android:layout_height="match_parent"
 		android:layout_marginTop="2dp">
 		<TextView
+			android:id="@+id/txtMonInterface2"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.5"
@@ -169,6 +177,7 @@
 			android:background="#F3ED48"
 		/>
 		<TextView
+			android:id="@+id/txtTueWeb2"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.8"
@@ -181,6 +190,7 @@
 			android:background="#F79A5C"
 		/>
 		<TextView
+			android:id="@+id/txtWedProg"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.6"
@@ -193,6 +203,7 @@
 			android:background="#61DAF2"
 		/>
 		<TextView
+			android:id="@+id/txtThurProg2"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.75"
@@ -205,6 +216,7 @@
 			android:background="#61daf2"
 		/>
 		<TextView
+			android:id="@+id/txtFriApp2"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.7"
@@ -223,6 +235,7 @@
 		android:layout_height="match_parent"
 		android:layout_marginTop="2dp">
 		<TextView
+			android:id="@+id/txtMonProg"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.5"
@@ -235,6 +248,7 @@
 			android:background="#61daf2"
 		/>
 		<TextView
+			android:id="@+id/txtTueApp"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.8"
@@ -247,6 +261,7 @@
 			android:background="#96f059"
 		/>
 		<TextView
+			android:id="@+id/txtWedApp"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.6"
@@ -259,6 +274,7 @@
 			android:background="#96f059"
 		/>
 		<TextView
+			android:id="@+id/txtThurWeb"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.75"
@@ -271,6 +287,7 @@
 			android:background="#f79a5c"
 		/>
 		<TextView
+			android:id="@+id/txtFriInterface"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.7"
@@ -289,6 +306,7 @@
 		android:layout_height="match_parent"
 		android:layout_marginTop="2dp">
 		<TextView
+			android:id="@+id/txtMonProg2"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.5"
@@ -301,6 +319,7 @@
 			android:background="#61daf2"
 		/>
 		<TextView
+			android:id="@+id/txtTueApp2"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.8"
@@ -313,6 +332,7 @@
 			android:background="#96f059"
 		/>
 		<TextView
+			android:id="@+id/txtWedWeb"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.6"
@@ -320,11 +340,12 @@
 			android:layout_marginRight="1dp"
 			android:gravity="center"
 			android:padding="20dp"
-			android:text="App T&M"
+			android:text="Web Imp"
 			android:textColor="#000"
 			android:background="#96f059"
 		/>
 		<TextView
+			android:id="@+id/txtThurWeb2"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.75"
@@ -337,6 +358,7 @@
 			android:background="#f79a5c"
 		/>
 		<TextView
+			android:id="@+id/txtFriInt2"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="0.7"
@@ -355,6 +377,7 @@
 		android:layout_height="match_parent"
 		android:layout_marginTop="2dp">
 		<TextView
+			android:id="@+id/txtLunch"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_weight="1"
